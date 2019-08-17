@@ -3,6 +3,14 @@ body {
     font-family: 'Cousine', monospace;
 }
 
+p {
+    color: #FFF;
+    font-family: 'Cousine', monospace;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+}
+
 h1 {
     color: #FFF;
     font-family: 'Cousine', monospace;
@@ -28,6 +36,15 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    color: #FFF;
+    font-family: 'Cousine', monospace;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
 
 #yellow {
     color: #FFC044;
@@ -48,6 +65,18 @@ h3 {
 .nav-center {
     margin-top: 15%;
   }
+
+.about-center {
+    margin-top: 10%;
+  }
+
+#about{
+    padding-top: 15%;
+    text-align: justify;
+}
+#about-img{
+    float: right;
+}
 
 /* nav bar */
 
@@ -112,7 +141,6 @@ h3 {
 #hamburger{
     position: fixed;
     font-size:30px; 
-    overflow: hidden;
     color:#FFF;
     right: 25px;
     top: 25px;
@@ -129,13 +157,14 @@ h3 {
     left: 0;
     height: 100%;
     width: 100%;
-    opacity: 0;
+    opacity: 100;
     background-color: #282525;
     -webkit-transform: scale(0.85);
     -ms-transform: scale(0.85);
     transform: scale(0.85);
     -webkit-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
+    z-index: 100;
   }
   
   .full-menu--open {
@@ -144,5 +173,6 @@ h3 {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
+    z-index: 100;
   }
   
