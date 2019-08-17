@@ -1,0 +1,37 @@
+body {
+    background-color: #282525;
+    font-family: 'Cousine', monospace;
+}
+
+h1 {
+    color: #FFF;
+    font-family: 'Cousine', monospace;
+    font-weight: 700;
+    font-size: 85px;
+    text-align: center;
+}
+
+h2 {
+    color: #FFF;
+    font-family: 'Cousine', monospace;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 27px;
+    text-align: center;
+}
+
+#yellow {
+    color: #FFC044;
+}
+
+#green {
+    color: #04A777;
+}
+
+#pink {
+    color: #EA3C5F;
+}
+
+.landing-center {
+    margin-top: 20%;
+  }
