@@ -20,6 +20,15 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    color: #FFF;
+    font-family: 'Cousine', monospace;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+
 #yellow {
     color: #FFC044;
 }
@@ -35,3 +44,99 @@ h2 {
 .landing-center {
     margin-top: 20%;
   }
+
+.nav-center {
+    margin-top: 15%;
+  }
+
+/* nav bar */
+
+#menu-top{
+    color: #FFF;
+    font-family: 'Cousine', monospace;
+    font-weight: 700;
+    font-size: 50px;
+    padding-right: 25px;
+}
+
+#menu-w{
+    color: #FFC044;
+    font-family: 'Cousine', monospace;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    padding-right: 25px;
+}
+#menu-p{
+    color: #04A777;
+    font-family: 'Cousine', monospace;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    padding-right: 25px;
+}
+
+#menu-g{
+    color: #EA3C5F;
+    font-family: 'Cousine', monospace;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#icons{
+    font-size:40px; 
+    color:#FFF;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+#close{
+    font-size:40px; 
+    color:#FFF;
+    position: fixed;
+    right: 25px;
+    top: 25px;
+}
+
+#close:hover {
+    color: #FFC044;
+  }
+
+#hamburger{
+    position: fixed;
+    font-size:30px; 
+    overflow: hidden;
+    color:#FFF;
+    right: 25px;
+    top: 25px;
+}
+
+#hamburger:hover {
+    color: #04A777;
+  }
+
+.full-menu {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #282525;
+    -webkit-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+  }
+  
+  .full-menu--open {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  
