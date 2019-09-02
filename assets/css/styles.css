@@ -33,8 +33,6 @@ h2 {
 
 h3 {
     color: #FFF;
-    font-family: 'Cousine', monospace;
-    font-weight: 700;
     font-size: 30px;
     text-align: center;
 }
@@ -83,7 +81,7 @@ h6 {
   }
 
 .nav-center {
-    margin-top: 15%;
+    margin-top: 17%;
   }
 
 .about-center {
