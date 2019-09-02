@@ -8,11 +8,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Bootstrap css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Bootstrap js -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
     <!-- Personal css -->
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -29,7 +37,6 @@
 
 <body>
     <header>
-        <a class="menu-toggle" id="hamburger"><i class="fas fa-bars"></a>
 
         <div class="full-menu">
 
@@ -38,8 +45,9 @@
             <div class="row nav-center">
                 <div class="col-12">
                     <h3><span><a href="./index.html" id="menu-top">HOME</a></span> <span><a href="./about.html"
-                                id="menu-top">ABOUT</a></span> <span><a href="./assets/images/Finlayson_Resume.pdf" target="_blank" id="menu-top">RESUME<i
-                                    class="fas fa-external-link-alt" id="external"></i></a></span>
+                                id="menu-top">ABOUT</a></span> <span><a href="./assets/images/Finlayson_Resume.pdf"
+                                target="_blank" id="menu-top">RESUME<i class="fas fa-external-link-alt"
+                                    id="external"></i></a></span>
                     </h3>
                 </div>
                 <br>
@@ -70,96 +78,269 @@
     </header>
 
     <div class="container">
-        <div class="row web-center">
-            <h6 id="yellow">WEB DEVELOPMENT PORTFOLIO</h6>
-        </div>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail t-color">
-                    <img src="assets/images/zoom.png">
-                    <div class="caption">
-                        <h5>CAR INVENTORY APP</h5>
-                        <center>
-                            <p><a href="https://warm-wildwood-64575.herokuapp.com/" class="btn btn-default"
-                                    role="button">DEMO</a> <a href="https://github.com/jlfinlayson/project-2-app"
-                                    class="btn btn-default" role="button">GITHUB</a></p>
-                        </center>
+        <a class="menu-toggle" id="hamburger"><i class="fas fa-bars"></a>
+
+        <!-- Burger I-R -->
+        <div class="row mr-2">
+            <div class="col-md-7">
+                <div class="row">
+                    <h5 class="mx-auto mt-5 pt-4">Eat-Da-Burger</h5>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <p>Eat Da Burger is a Bob's Burger themed app that utilizes Express, Handlebars, and SQL to
+                            allow
+                            users
+                            to create and eat the iconic burgers featured in the show.</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><a href="https://github.com/jlfinlayson/Eat-Da-Burger" target="_blank"><button type="button"
+                                    class="btn btn-outline-light float-right">GitHub</button></a></p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><a href="https://eat-bobs-burgers.herokuapp.com/" target="_blank"><button type="button"
+                                    class="btn btn-outline-light float-left">Demo</button></a></p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail t-color">
-                    <img src="assets/images/train.png">
-                    <div class="caption">
-                        <h5>TRAIN SCHEDULER</h5>
-                        <center>
-                            <p><a href="https://jlfinlayson.github.io/train/" class="btn btn-default"
-                                    role="button">DEMO</a> <a href="https://github.com/jlfinlayson/train"
-                                    class="btn btn-default" role="button">GITHUB</a></p>
-                        </center>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail t-color">
-                    <img src="assets/images/burger.png">
-                    <div class="caption">
-                        <h5>EAT DA BURGER</h5>
-                        <center>
-                            <p><a href="https://eat-bobs-burgers.herokuapp.com/" class="btn btn-default"
-                                    role="button">DEMO</a> <a href="https://github.com/jlfinlayson/burger"
-                                    class="btn btn-default" role="button">GITHUB</a></p>
-                        </center>
-                    </div>
-                </div>
+            <div class="col-md-5">
+                <a href="https://eat-bobs-burgers.herokuapp.com/" target="_blank"><img class="img-fluid mx-auto"
+                        src="assets/images/burger.png"></a>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail t-color">
-                    <img src="assets/images/gif.png">
-                    <div class="caption">
-                        <h5>GIFTASTIC</h5>
-                        <center>
-                            <p><a href="https://jlfinlayson.github.io/giftastic/" class="btn btn-default"
-                                    role="button">DEMO</a> <a href="https://github.com/jlfinlayson/giftastic"
-                                    class="btn btn-default" role="button">GITHUB</a></p>
-                        </center>
+
+        <hr>
+
+        <!-- Crystal Collector I-L -->
+        <div class="row ml-2">
+            <div class="col-md-7 order-md-2">
+                <div class="row">
+                    <h5 class="mx-auto mt-5 pt-4">Crystal Collector</h5>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <p>Crystal Collector is a jQuery game with a randomly generated target number. The value of the
+                            crystals is randomized with each round and is only known to the users once they are clicked
+                            on. If the user's guess equals the random target number then the user wins. </p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><a href="https://github.com/jlfinlayson/Crystal-Collector" target="_blank"><button
+                                    type="button" class="btn btn-outline-light float-right">GitHub</button></a></p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><a href="https://jlfinlayson.github.io/Crystal-Collector/" target="_blank"><button
+                                    type="button" class="btn btn-outline-light float-left">Demo</button></a></p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail t-color">
-                    <img src="assets/images/dog.png">
-                    <div class="caption">
-                        <h5>TRAIN SCHEDULER</h5>
-                        <center>
-                            <p><a href="https://dlentz92.github.io/Group-Project-1/" class="btn btn-default"
-                                    role="button">DEMO</a> <a href="https://github.com/jlfinlayson/Group-Project-1"
-                                    class="btn btn-default" role="button">GITHUB</a></p>
-                        </center>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail t-color">
-                    <img src="assets/images/bamazon.png">
-                    <div class="caption">
-                        <h5>EAT DA BURGER</h5>
-                        <center>
-                            <p><a href="https://drive.google.com/file/d/1nMXf11Y_4Jf0Atq-o0AtR-pNn53sOhHh/view"
-                                    class="btn btn-default" role="button">DEMO 1</a>
-                                <p><a href="https://drive.google.com/file/d/1rgEPaNwd9WQR2e4AqCS0vEenRBSxbf3l/view"
-                                        class="btn btn-default" role="button">DEMO 2</a> <a
-                                        href="https://github.com/jlfinlayson/bamazon" class="btn btn-default"
-                                        role="button">GITHUB</a></p>
-                        </center>
-                    </div>
-                </div>
+            <div class="col-md-5 order-md-1">
+                <a href="https://jlfinlayson.github.io/Crystal-Collector/" target="_blank"><img
+                        class="img-fluid mx-auto" src="assets/images/crystal.png"></a>
             </div>
         </div>
+
+        <hr>
+
+        <!-- Zoom I-R -->
+        <div class="row mr-2">
+            <div class="col-md-7">
+                <div class="row">
+                    <h5 class="mx-auto mt-5 pt-4">Zoom</h5>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <p>A app that allows users to store the vehicles that come into the shop for inventory and
+                            organization. The user can log each vehicle into the system and sort the vehicles by status.
+                            "WIP" (work in progress) which are cars that need to be repaired. "DONE/ READY TO SELL"
+                            (completed vehicles) cars that are done with repairs and have gone through a road test &
+                            ready to be sold to a customer.</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><a href="https://github.com/jlfinlayson/project-2-app" target="_blank"><button type="button"
+                                    class="btn btn-outline-light float-right">GitHub</button></a></p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><a href="https://warm-wildwood-64575.herokuapp.com/" target="_blank"><button type="button"
+                                    class="btn btn-outline-light float-left">Demo</button></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <a href="https://warm-wildwood-64575.herokuapp.com/" target="_blank"><img class="img-fluid mx-auto"
+                        src="assets/images/zoom.png"></a>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Dog I-L -->
+        <div class="row ml-2">
+            <div class="col-md-7 order-md-2">
+                <div class="row">
+                    <h5 class="mx-auto mt-5 pt-4">Muttropolitan</h5>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <p>The Muttropolitan Site is an all inclusive dog owner reference site.
+                            We offer guidelines on proper practices on caring for you furry four legged friends.
+                            Exploring the site, you will find links to near by resources such as Veterinarians and dog
+                            parks, as well as some shopping for poochie pampering.
+                            Feel like you need a new companion? Browse our list of dogs available for adoption.</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><a href="https://github.com/jlfinlayson/Group-Project-1" target="_blank"><button
+                                    type="button" class="btn btn-outline-light float-right">GitHub</button></a></p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><a href="https://jlfinlayson.github.io/Group-Project-1/" target="_blank"><button
+                                    type="button" class="btn btn-outline-light float-left">Demo</button></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <a href="https://jlfinlayson.github.io/Group-Project-1/" target="_blank"><img class="img-fluid mx-auto"
+                        src="assets/images/dog.png"></a>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Bamazon I-R -->
+        <div class="row mr-2">
+            <div class="col-md-7">
+                <div class="row">
+                    <h5 class="mx-auto mt-5 pt-4">Bamazon</h5>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <p>The Bamazon application is an Amazon-like storefront that is run soley through.
+                            Users are given the choice of buying products as a customer or updating inventory a manager.
+                        </p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-4">
+                        <p><a href="https://github.com/jlfinlayson/Bamazon" target="_blank"><button type="button"
+                                    class="btn btn-outline-light float-right">GitHub</button></a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <p><a href="https://drive.google.com/file/d/1nMXf11Y_4Jf0Atq-o0AtR-pNn53sOhHh/view"
+                                target="_blank"><button type="button"
+                                    class="btn btn-outline-light float-center">Customer</button></a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <p><a href="https://drive.google.com/file/d/1rgEPaNwd9WQR2e4AqCS0vEenRBSxbf3l/view"
+                                target="_blank"><button type="button"
+                                    class="btn btn-outline-light float-left">Manager</button></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <a href="https://github.com/jlfinlayson/Bamazon" target="_blank"><img class="img-fluid mx-auto"
+                        src="assets/images/bamazon.png"></a>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Giftastic I-L -->
+        <div class="row ml-2">
+            <div class="col-md-7 order-md-2">
+                <div class="row">
+                    <h5 class="mx-auto mt-5 pt-4">Giftastic</h5>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <p>Giftastic is a web application that allows users to view gifs of their favorite artists. The
+                            application features preset options as well as the option to search for the users artist of
+                            choice.</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><a href="https://github.com/jlfinlayson/Giftastic" target="_blank"><button type="button"
+                                    class="btn btn-outline-light float-right">GitHub</button></a></p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><a href="https://jlfinlayson.github.io/Giftastic/" target="_blank"><button type="button"
+                                    class="btn btn-outline-light float-left">Demo</button></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <a href="https://jlfinlayson.github.io/Giftastic/" target="_blank"><img class="img-fluid mx-auto"
+                        src="assets/images/gif.png"></a>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Zoom I-R -->
+        <div class="row mr-2">
+            <div class="col-md-7">
+                <div class="row">
+                    <h5 class="mx-auto mt-5 pt-4">Train Scheduler</h5>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <p>The train scheduler application allows users to track trains by name, destination, frequency, next arrival, and by how many minutes away it is. Users are also able to input their own trains into the system if they are not already on the list. The schedule is built to utilize the current time for the most accurate schedules.</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><a href="https://github.com/jlfinlayson/Train-Scheduler" target="_blank"><button type="button"
+                                    class="btn btn-outline-light float-right">GitHub</button></a></p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><a href="https://jlfinlayson.github.io/Train-Scheduler/" target="_blank"><button type="button"
+                                    class="btn btn-outline-light float-left">Demo</button></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <a href="https://jlfinlayson.github.io/Train-Scheduler/" target="_blank"><img class="img-fluid mx-auto"
+                        src="assets/images/train.png"></a>
+            </div>
+        </div>
+
+        <hr>
+
     </div>
 
 
