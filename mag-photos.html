@@ -88,49 +88,53 @@
         <div class="wrapper mx-auto">
             <div class="row gallery">
                 <div class="column">
+                    <!-- Image 1 -->
                     <img src="assets/images/photo/mag/WMAG-1.jpg" onclick="openModal();currentSlide(1)">
+                    <!-- Image 4 -->
                     <img src="assets/images/photo/mag/WMAG-4.jpg" onclick="openModal();currentSlide(4)">
 
                 </div>
                 <div class="column">
-                        <img src="assets/images/photo/mag/WMAG-2.jpg" onclick="openModal();currentSlide(2)">
+                    <!-- Image 2 -->
+                    <img src="assets/images/photo/mag/WMAG-2.jpg" onclick="openModal();currentSlide(2)">
                 </div>
                 <div class="column">
-                        <img src="assets/images/photo/mag/WMAG-3.jpg" onclick="openModal();currentSlide(3)">
+                    <!-- Image 3 -->
+                    <img src="assets/images/photo/mag/WMAG-3.jpg" onclick="openModal();currentSlide(3)">
                 </div>
             </div>
         </div>
         <div id="myModal" class="model">
-                <span class="close cursor" onclick="closeModal()">&times;</span>
-                <div class="modal-content mt-3">
-    
-               
-                        <div class="mySlides">
-                            <img src="assets/images/photo/mag/WMAG-1.jpg" class="center" alt="Nature and sunrise">
-                        </div>
-    
-                        <div class="mySlides">
-                            <img src="assets/images/photo/mag/WMAG-2.jpg" class="center" alt="Nature and sunrise2">
-                        </div>
-    
-                        <div class="mySlides">
-                            <img src="assets/images/photo/mag/WMAG-3.jpg" class="center demo" alt="Nature and sunrise3">
-                        </div>
-    
-                        <div class="mySlides">
-                            <img src="assets/images/photo/mag/WMAG-4.jpg" class="center demo" alt="Nature and sunrise4">
-                        </div>
-    
-                        <a class="prev" onclick="plusSlides(-1)"><span class="dingbat">&#10094;</span></a>
-                        
-                        <a class="next" onclick="plusSlides(1)"><span class="dingbat">&#10095;</span></a>
-                    </div>
-    
-                    <div class="caption-container mt-4">
-                            <p id="caption"></p>
-                        </div>
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content mt-3">
+
+                <!-- Image 1 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/mag/WMAG-1.jpg" class="center" alt="Nature and sunrise">
                 </div>
+                <!-- Image 2 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/mag/WMAG-2.jpg" class="center" alt="Nature and sunrise2">
+                </div>
+                <!-- Image 3 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/mag/WMAG-3.jpg" class="center demo" alt="Nature and sunrise3">
+                </div>
+                <!-- Image 4 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/mag/WMAG-4.jpg" class="center demo" alt="Nature and sunrise4">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)"><span class="dingbat">&#10094;</span></a>
+
+                <a class="next" onclick="plusSlides(1)"><span class="dingbat">&#10095;</span></a>
             </div>
+
+            <div class="caption-container mt-4">
+                <p id="caption"></p>
+            </div>
+        </div>
+    </div>
 
 
 
