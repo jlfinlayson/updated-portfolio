@@ -88,33 +88,144 @@
         <div class="wrapper mx-auto">
             <div class="row gallery">
                 <div class="column">
-                    <img src="assets/images/photo/concerts/jack_johnson_1.JPG">
-                    <img src="assets/images/photo/concerts/jack_johnson_2.jpg">
-                    <img src="assets/images/photo/concerts/jack_johnson_3.jpg">
-                    <img src="assets/images/photo/concerts/movin_on_17_1.jpg">
-                    <img src="assets/images/photo/concerts/movin_on_17_2.jpg">
-                    <img src="assets/images/photo/concerts/movin_on_17_3.jpg">
+                    <!-- Image 1 -->
+                    <img src="assets/images/photo/concerts/jack_johnson_1.JPG" onclick="openModal();currentSlide(1)">
+                    <!-- Image 4 -->
+                    <img src="assets/images/photo/concerts/jack_johnson_2.jpg" onclick="openModal();currentSlide(4)">
+                    <!-- Image 7 -->
+                    <img src="assets/images/photo/concerts/jack_johnson_3.jpg" onclick="openModal();currentSlide(7)">
+                    <!-- Image 10 -->
+                    <img src="assets/images/photo/concerts/movin_on_17_1.jpg" onclick="openModal();currentSlide(10)">
+                    <!-- Image 13 -->
+                    <img src="assets/images/photo/concerts/movin_on_17_2.jpg" onclick="openModal();currentSlide(13)">
+                    <!-- Image 16 -->
+                    <img src="assets/images/photo/concerts/movin_on_17_3.jpg" onclick="openModal();currentSlide(16)">
                 </div>
                 <div class="column">
-                        <img src="assets/images/photo/concerts/movin_on_17_4.jpg">
-                        <img src="assets/images/photo/concerts/movin_on_18_1.jpg">
-                        <img src="assets/images/photo/concerts/movin_on_18_2.jpg">
-                        <img src="assets/images/photo/concerts/movin_on_18_3.jpg">
-                        <img src="assets/images/photo/concerts/movin_on_18_4.jpg">
-                        <img src="assets/images/photo/concerts/movin_on_18_5.jpg">
+                    <!-- Image 2 -->
+                    <img src="assets/images/photo/concerts/movin_on_17_4.jpg" onclick="openModal();currentSlide(2)">
+                    <!-- Image 5 -->
+                    <img src="assets/images/photo/concerts/movin_on_18_1.jpg" onclick="openModal();currentSlide(5)">
+                    <!-- Image 8 -->
+                    <img src="assets/images/photo/concerts/movin_on_18_2.jpg" onclick="openModal();currentSlide(8)">
+                    <!-- Image 11 -->
+                    <img src="assets/images/photo/concerts/movin_on_18_3.jpg" onclick="openModal();currentSlide(11)">
+                    <!-- Image 14 -->
+                    <img src="assets/images/photo/concerts/movin_on_18_4.jpg" onclick="openModal();currentSlide(14)">
+                    <!-- Image 17 -->
+                    <img src="assets/images/photo/concerts/movin_on_18_5.jpg" onclick="openModal();currentSlide(17)">
                 </div>
                 <div class="column">
-                        <img src="assets/images/photo/concerts/movin_on_18_6.jpg">
-                        <img src="assets/images/photo/concerts/movin_on_18_7.jpg">
-                        <img src="assets/images/photo/concerts/movin_on_18_8.jpg">
-                        <img src="assets/images/photo/concerts/movinin_1.jpg">
-                        <img src="assets/images/photo/concerts/movinin_2.jpg">
-                        <img src="assets/images/photo/concerts/movinin_5.jpg">
+                    <!-- Image 3 -->
+                    <img src="assets/images/photo/concerts/movin_on_18_6.jpg" onclick="openModal();currentSlide(3)">
+                    <!-- Image 6 -->
+                    <img src="assets/images/photo/concerts/movin_on_18_7.jpg" onclick="openModal();currentSlide(6)">
+                    <!-- Image 9 -->
+                    <img src="assets/images/photo/concerts/movin_on_18_8.jpg" onclick="openModal();currentSlide(9)">
+                    <!-- Image 12 -->
+                    <img src="assets/images/photo/concerts/movinin_1.jpg" onclick="openModal();currentSlide(12)">
+                    <!-- Image 15 -->
+                    <img src="assets/images/photo/concerts/movinin_2.jpg" onclick="openModal();currentSlide(15)">
+                    <!-- Image 18 -->
+                    <img src="assets/images/photo/concerts/movinin_5.jpg" onclick="openModal();currentSlide(18)">
                 </div>
             </div>
         </div>
 
+        <div id="myModal" class="model">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content mt-3">
 
+                <!-- Image 1 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/concerts/jack_johnson_1.JPG" class="center" alt="Nature and sunrise">
+                </div>
+                <!-- Image 2 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/concerts/movin_on_17_4.jpg" class="center" alt="Nature and sunrise2">
+                </div>
+                <!-- Image 3 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/concerts/movin_on_18_6.jpg" class="center demo"
+                        alt="Nature and sunrise3">
+                </div>
+                <!-- Image 4 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/concerts/jack_johnson_2.jpg" class="center demo"
+                        alt="Nature and sunrise4">
+                </div>
+                <!-- Image 5 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/concerts/movin_on_18_1.jpg" class="center" alt="Nature and sunrise">
+                </div>
+                <!-- Image 6 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/concerts/movin_on_18_7.jpg" class="center" alt="Nature and sunrise2">
+                </div>
+                <!-- Image 7 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/concerts/jack_johnson_3.jpg" class="center demo"
+                        alt="Nature and sunrise3">
+                </div>
+                <!-- Image 8 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/concerts/movin_on_18_2.jpg" class="center demo"
+                        alt="Nature and sunrise4">
+                </div>
+                <!-- Image 9 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/concerts/movin_on_18_8.jpg" class="center" alt="Nature and sunrise">
+                </div>
+                <!-- Image 10 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/concerts/movin_on_17_1.jpg" class="center" alt="Nature and sunrise2">
+                </div>
+                <!-- Image 11 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/concerts/movin_on_18_3.jpg" class="center demo"
+                        alt="Nature and sunrise3">
+                </div>
+                <!-- Image 12 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/concerts/movinin_1.jpg" class="center demo" alt="Nature and sunrise4">
+                </div>
+                <!-- Image 13 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/concerts/movin_on_17_2.jpg" class="center" alt="Nature and sunrise">
+                </div>
+                <!-- Image 14 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/concerts/movin_on_18_4.jpg" class="center" alt="Nature and sunrise2">
+                </div>
+                <!-- Image 15 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/concerts/movinin_2.jpg" class="center demo" alt="Nature and sunrise3">
+                </div>
+                <!-- Image 16 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/concerts/movin_on_17_3.jpg" class="center demo"
+                        alt="Nature and sunrise4">
+                </div>
+                <!-- Image 17 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/concerts/movin_on_18_5.jpg" class="center demo"
+                        alt="Nature and sunrise4">
+                </div>
+                <!-- Image 18 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/concerts/movinin_5.jpg" class="center demo" alt="Nature and sunrise4">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)"><span class="dingbat">&#10094;</span></a>
+
+                <a class="next" onclick="plusSlides(1)"><span class="dingbat">&#10095;</span></a>
+            </div>
+
+            <div class="caption-container mt-4">
+                <p id="caption"></p>
+            </div>
+        </div>
+    </div>
 
 
     </div>
