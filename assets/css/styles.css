@@ -362,7 +362,7 @@ hr{
     max-height: 80vh;
     height:auto;
     width: auto;
-    max-width: 70vw;
+    max-width: 50vw;
   }
 
   .dingbat {
@@ -400,8 +400,8 @@ hr{
     text-align: center;
   }
 
-    .imageC {
+  .imageC {
       position: relative;
       height: 175px;
       width: 275px; 
-    }
+  }
