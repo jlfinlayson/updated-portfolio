@@ -152,7 +152,7 @@ h6 {
       padding-right: 18px;
     }
 
-    #close {
+    #closeY {
       font-size:40px; 
       color:#FFF;
       position: fixed;
@@ -160,11 +160,35 @@ h6 {
       top: 25px;
     }
 
-    #close:hover {
+    #closeY:hover {
       color: #FFC044;
     }
 
-    #hamburger{
+    #closeP {
+      font-size:40px; 
+      color:#FFF;
+      position: fixed;
+      right: 25px;
+      top: 25px;
+    }
+
+    #closeP:hover {
+      color: #EA3C5F;
+    }
+
+    #closeG {
+      font-size:40px; 
+      color:#FFF;
+      position: fixed;
+      right: 25px;
+      top: 25px;
+    }
+
+    #closeG:hover {
+      color: #04A777;
+    }
+
+    #hamburgerG{
       position: fixed;
       font-size:30px; 
       color:#FFF;
@@ -172,8 +196,32 @@ h6 {
       top: 25px;
     }
 
-    #hamburger:hover {
+    #hamburgerY{
+      position: fixed;
+      font-size:30px; 
+      color:#FFF;
+      right: 25px;
+      top: 25px;
+    }
+
+    #hamburgerP{
+      position: fixed;
+      font-size:30px; 
+      color:#FFF;
+      right: 25px;
+      top: 25px;
+    }
+
+    #hamburgerG:hover {
       color: #04A777;
+    }
+
+    #hamburgerY:hover {
+      color: #FFC044;
+    }
+
+    #hamburgerP:hover {
+      color: #EA3C5F;
     }
 
     .full-menu {
