@@ -21,6 +21,7 @@ h1 {
   font-weight: 700;
   font-size: 85px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -30,6 +31,7 @@ h2 {
   font-style: italic;
   font-size: 27px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -37,6 +39,7 @@ h3 {
   font-family: 'Cousine', monospace;
   font-size: 30px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 h4 {
@@ -46,6 +49,7 @@ h4 {
   font-size: 40px;
   text-align: center;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
 h5 {
@@ -55,6 +59,7 @@ h5 {
   font-size: 45px;
   text-align: center;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
 h6 {
@@ -62,6 +67,8 @@ h6 {
   font-weight: 700;
   font-size: 65px;
   text-align: center;
+  font-style: italic;
+  text-transform: uppercase;
 }
 
 #yellow {
