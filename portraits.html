@@ -84,78 +84,71 @@
 
         <div class="row mt-3 mb-5">
             <div class="col-12">
-                <h6 id="green">PHOTOGRAPHY</h6>
+                <h1>PORTRAITS</h1>
             </div>
         </div>
 
-        <div class="col-md-10 mx-auto">
+        <div class="wrapper mx-auto">
+            <div class="row gallery">
+                <div class="column">
+                    <!-- Image 1 -->
+                    <img src="assets/images/photo/mag/WMAG-1.jpg" onclick="openModal();currentSlide(1)">
+                    <!-- Image 4 -->
+                    <img src="assets/images/photo/mag/WMAG-4.jpg" onclick="openModal();currentSlide(4)">
 
-            <div class="row d-flex justify-content-around mb-4">
-
-                <!-- CONCERTS -->
-                <div class="imageC">
-                    <img class="box" src="assets/images/photo/concerts/movinin_1.jpg">
-                    <a href="./concert.html">
-                        <div class="overlay">
-                            <div class="text">CONCERTS</div>
-                        </div>
-                    </a>
                 </div>
-
-                <!-- THON -->
-                <div class="imageC">
-                    <img class="box" src="assets/images/photo/thon/5K_17_5.jpg">
-                    <a href="./thon.html">
-                        <div class="overlay">
-                            <div class="text">PENN STATE THON</div>
-                        </div>
-                    </a>
+                <div class="column">
+                    <!-- Image 2 -->
+                    <img src="assets/images/photo/mag/WMAG-2.jpg" onclick="openModal();currentSlide(2)">
                 </div>
-
-                <!-- FILM -->
-                <div class="imageC">
-                    <img class="box" src="assets/images/photo/film/helicopter_1.jpg">
-                    <a href="./film.html">
-                        <div class="overlay">
-                            <div class="text">FILM</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="row d-flex justify-content-around">
-
-                <!-- FASHION -->
-                <div class="imageC">
-                    <img class="box" src="assets/images/photo/mag/WMAG-1.jpg">
-                    <a href="./mag-photos.html">
-                        <div class="overlay">
-                            <div class="text">FASHION</div>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- 2016 INAUGURATION -->
-                <div class="imageC">
-                    <img class="box" src="assets/images/photo/inaug/inauguration7.jpg">
-                    <a href="./innauguration.html">
-                        <div class="overlay">
-                            <div class="text">2016 INAUGURATION</div>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Portraits -->
-                <div class="imageC">
-                    <img class="box" src="assets/images/photo/etc/wod.jpg">
-                    <a href="./portraits.html">
-                        <div class="overlay">
-                            <div class="text">PORTRAITS</div>
-                        </div>
-                    </a>
+                <div class="column">
+                    <!-- Image 3 -->
+                    <img src="assets/images/photo/mag/WMAG-3.jpg" onclick="openModal();currentSlide(3)">
                 </div>
             </div>
         </div>
+        <div id="myModal" class="model">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content mt-3">
+
+                <!-- Image 1 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/mag/WMAG-1.jpg" class="center">
+                    <div class="caption-container mt-4">
+                        <p>L8 Night Mag | 2018</p>
+                    </div>
+                </div>
+                <!-- Image 2 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/mag/WMAG-2.jpg" class="center">
+                    <div class="caption-container mt-4">
+                        <p>L8 Night Mag | 2018</p>
+                    </div>
+                </div>
+                <!-- Image 3 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/mag/WMAG-3.jpg" class="center">
+                    <div class="caption-container mt-4">
+                        <p>L8 Night Mag | 2018</p>
+                    </div>
+                </div>
+                <!-- Image 4 -->
+                <div class="mySlides">
+                    <img src="assets/images/photo/mag/WMAG-4.jpg" class="center">
+                    <div class="caption-container mt-4">
+                        <p>L8 Night Mag | 2018</p>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)"><span class="dingbat">&#10094;</span></a>
+
+                <a class="next" onclick="plusSlides(1)"><span class="dingbat">&#10095;</span></a>
+            </div>
+        </div>
+    </div>
+
+
+
     </div>
 
 
